@@ -9,8 +9,7 @@
 int main(void)
 	{
 
-	int i = 64;
+	int main = 64;
 
-	size_t int_size = sizeof(i);
 	return (0);
 	}

@@ -21,15 +21,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		puts("is positive");
+		printf(n "is positive");
 	}
 	else if (n == 0)
 	{
-		puts("is zero");
+		printf(n "is zero");
 	}
 	else if (n < 0)
 	{
-		puts("is negative");
+		printf(n "is negative");
 	}
 
 

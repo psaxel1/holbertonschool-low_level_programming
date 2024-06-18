@@ -20,6 +20,6 @@ int main(void)
 		putchar(1, &ch, 1);
 	}
 
-	putchar("\n");
+	printf("\n");
 	return (0);
 }

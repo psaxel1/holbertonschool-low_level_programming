@@ -14,13 +14,11 @@
 
 int main(void)
 {
-	 char ch;
+	 char ch, CH;
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		write(1, &ch, 1);
 	}
-
-	char CH;
 
 	for (CH = 'A'; CH <= 'Z'; CH++)
 	{

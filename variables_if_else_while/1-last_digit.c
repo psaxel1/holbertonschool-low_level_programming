@@ -19,7 +19,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 5)
 	{
-		printf("Last digit of %d and id greater than 5", n);
+		printf("Last digit of %d and is greater than 5", n);
 	}
 	else if (n == 0)
 	{

@@ -14,7 +14,7 @@
 
 int main(void)
 {
-	 char ch;
+	 int ch;
 	for (ch = '9'; ch <= '0'; ch++)
 	{
 		write(1, &ch, 1);

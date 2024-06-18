@@ -12,10 +12,9 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
-	int d;
+	int n, d;
+	d = n % 10;
 
-	d=n % 10;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */

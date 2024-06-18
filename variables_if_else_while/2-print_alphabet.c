@@ -20,5 +20,6 @@ int main(void)
 		write(1, &ch, 1);
 	}
 
+	printf("\n");
 	return (0);
 }

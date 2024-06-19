@@ -15,9 +15,9 @@
 int main(void)
 {
 	 int ch;
-	for (ch = '9'; ch <= '0'; ch++)
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		putchar(1, &ch, 1);
+	printf("%d", ch);
 	}
 
 	printf("\n");

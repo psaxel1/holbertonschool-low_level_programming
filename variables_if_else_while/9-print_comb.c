@@ -14,14 +14,18 @@
 
 int main(void)
 {
-	 char ch;
-	for (ch = '0'; ch <= '8'; ch++)
+	char ch;
+
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-	putchar(ch);
+		putchar(ch);
+	if (ch == '9')
+	continue;
+
 	putchar(',');
 	putchar(' ');
-	}
 
-	putchar('9');
+	}
+	putchar('\n');
 	return (0);
 }

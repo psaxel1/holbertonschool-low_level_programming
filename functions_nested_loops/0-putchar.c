@@ -1,11 +1,14 @@
 #include <stdio.h>
-#include "main.h"
+#include <unistd.h>
+
 /**
- *main -description here
+ *main -desc
  *
  *
- * Return: always 0
+ * Return: 0
+ *
  */
+
 int main(void)
 {
 	putchar ('_');
@@ -16,5 +19,6 @@ int main(void)
 	putchar ('h');
 	putchar ('a');
 	putchar ('r');
+
 	return (0);
 }

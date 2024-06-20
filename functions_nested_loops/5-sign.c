@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_sing -print sing of n if po neg or 0
+ * print_sign -print sing of n if po neg or 0
  * @n: number
  * Return: 1 0 -1
  */
 
 
-int print_sing(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -24,4 +24,5 @@ int print_sing(int n)
 		_putchar('-');
 		return (-1);
 	}
+return (-1);
 }

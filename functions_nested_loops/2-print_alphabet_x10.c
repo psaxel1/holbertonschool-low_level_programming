@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet -ecirt l'alphabet dans l'ordre a-z
+ * print_alphabet_x10 -ecirt l'alphabet dans l'ordre a-z 10 fois
  *
  **/
 
@@ -17,6 +17,4 @@ void print_alphabet_x10(void)
 		}
 	_putchar('\n');
 	}
-
-	_putchar('\n');
 }

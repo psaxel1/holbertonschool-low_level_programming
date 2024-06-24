@@ -5,7 +5,7 @@
  *
  **/
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	 char ch;
 	for (ch = '0'; ch <= '9'; ch++)

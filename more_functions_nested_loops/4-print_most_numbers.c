@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers -ecirt les chiffre 1 a 9
+ * print_most_numbers -ecirt les chiffre 1 a 9
  *
  **/
 

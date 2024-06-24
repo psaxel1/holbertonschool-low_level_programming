@@ -18,5 +18,6 @@ int print_last_digit(int n);
 void jack_bauer(void);
 int _isdigit(int c);
 int mul(int a, int b);
+void print_numbers(void);
 
 #endif

@@ -15,7 +15,7 @@ int _isdigit(int c)
 	}
 	else if ( c >= 10)
 	{
-		return (0);
+		return (1);
 	}
 
 	return (0);

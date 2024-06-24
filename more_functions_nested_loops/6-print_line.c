@@ -5,11 +5,12 @@
  * @n: number
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	for (; n > 0; n--)
 	{
-		_putchar('_');
+		_putchar(' ');
 	}
+	_putchar('\');
 	_putchar('\n');
 }

@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * more_numbers -print 1 to 14
  *
@@ -12,11 +12,11 @@ void more_numbers(void)
 		for (num = 0; num <= 14; num++)
 		{
 			if (num >= 10)
-				putchar('0' + num / 10);
+				_putchar('0' + num / 10);
 
-			putchar('0' + num % 10);
+			_putchar('0' + num % 10);
 		}
 
-		putchar('\n');
+		_putchar('\n');
 	}
 }

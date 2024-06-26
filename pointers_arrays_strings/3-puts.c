@@ -1,9 +1,7 @@
 #include "main.h"
 /**
- * _strlen - cree tableur poiteur poite premier case du tableau.
- *	 a l'incrementation change de case
- * @s: is char
- * Return: i
+ * _puts -print all the array
+ * @str: is array
  */
 void _puts(char *str)
 {

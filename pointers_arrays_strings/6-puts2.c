@@ -1,4 +1,4 @@
-#include "main .h"
+#include "main.h"
 /**
  * puts2 -print 0 2 4 6 8 10 ...
  *@str: array

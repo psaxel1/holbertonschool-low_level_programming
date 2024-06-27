@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 -print 0 2 4 6 8 10 ...
+ * puts_half -print half of array
  *@str: array
  */
 void puts_half(char *str)

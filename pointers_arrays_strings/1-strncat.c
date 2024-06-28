@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncat -description
+ * _strncat -ajoute source a dest en fonction de n
  * @dest: destination
  * @src: source
  * @n: number
@@ -8,12 +8,17 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int dest_len = _strlen(dest);
-	int i;
+	int i, j;
 
-	for (i = 0 ; i < n && src[i] != '\0' ; i++)
-		dest[dest_len + i] = src[i];
-	dest[dest_len + i] = '\0';
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+	}
+	for (j = 0; src[j] != '\0' && n > 0; j++, i++, n--)
+	{
+		dest[i] = src[j];
+	}
+
+
 	return (dest);
 }
 

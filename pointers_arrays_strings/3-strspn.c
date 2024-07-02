@@ -2,14 +2,19 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
+	int i, j, a;
 
-	for (j = 0; )
+	a = 0;
 
-	int i = 0;
-	while (*s++)
+	for (j = 0; s[j] != ' '; j++ )
 	{
-		if (*s == accept)
-		i++;
+		for (i = 0; accept[i] != '\0'; i++)
+		{
+			if (s[j] == accept[i])
+			{
+				a++;
+			}
+		}
 	}
-return (i);	
+	return (a);	
 }
